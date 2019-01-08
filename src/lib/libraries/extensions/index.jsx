@@ -16,7 +16,7 @@ import text2speechImage from './text2speech.png';
 import text2speechInsetImage from './text2speech-small.svg';
 import makeymakeyImage from './makeymakey.png';
 import makeymakeyInsetImage from './makeymakey-small.svg';
-import xblocklyImage from './xblockly.png';
+import xkithqroverImage from './xkithqrover.png';
 
 import microbitPeripheralImage from './peripheral-connection/microbit/microbit-illustration.svg';
 import microbitMenuImage from './peripheral-connection/microbit/microbit-small.svg';
@@ -25,8 +25,8 @@ import ev3MenuImage from './peripheral-connection/ev3/ev3-small.svg';
 import wedoPeripheralImage from './peripheral-connection/wedo/wedo-illustration.svg';
 import wedoMenuImage from './peripheral-connection/wedo/wedo-small.svg';
 import wedoButtonImage from './peripheral-connection/wedo/wedo-button-illustration.svg';
-import xblocklyPeripheralImage from './peripheral-connection/xblockly/xblockly-illustration.svg';
-import xblocklyMenuImage from './peripheral-connection/xblockly/xblockly-small.svg';
+import xkithqroverPeripheralImage from './peripheral-connection/xkithqrover/xkithqrover-illustration.svg';
+import xkithqroverMenuImage from './peripheral-connection/xkithqrover/xkithqrover-small.svg';
 
 export default [
     {
@@ -238,16 +238,16 @@ export default [
 
     },
     {
-        name: 'XBlockly',
-        extensionId: 'xblockly',
-        collaborator: 'xblockly',
-        iconURL: xblocklyImage,
-        insetIconURL: xblocklyMenuImage,
+        name: 'hqrover',
+        extensionId: 'xkithqrover',
+        collaborator: 'XBlockly',
+        iconURL: xkithqroverImage,
+        insetIconURL: xkithqroverMenuImage,
         description: (
             <FormattedMessage
                 defaultMessage="Connect your projects with the world."
-                description="Description for the 'XBlockly' extension"
-                id="gui.extension.xblockly.description"
+                description="Description for the 'hqrover' extension"
+                id="gui.extension.xkithqrover.description"
             />
         ),
         featured: true,
@@ -255,13 +255,13 @@ export default [
         bluetoothRequired: true,
         launchPeripheralConnectionFlow: true,
         useAutoScan: false,
-        peripheralImage: xblocklyPeripheralImage,
-        smallPeripheralImage: xblocklyMenuImage,
+        peripheralImage: xkithqroverPeripheralImage,
+        smallPeripheralImage: xkithqroverMenuImage,
         connectingMessage: (
             <FormattedMessage
                 defaultMessage="Connecting"
-                description="Message to help people connect to their XBlockly."
-                id="gui.extension.xblockly.connectingMessage"
+                description="Message to help people connect to their hqrover."
+                id="gui.extension.xkithqrover.connectingMessage"
             />
         ),
         helpLink: 'https://mylecon.com'
