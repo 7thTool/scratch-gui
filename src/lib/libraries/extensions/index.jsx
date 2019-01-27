@@ -238,7 +238,13 @@ export default [
 
     },
     {
-        name: 'hqrover',
+        name: (
+            <FormattedMessage
+                defaultMessage="hqrover"
+                description="Name for the xkit\'s 'hqrover' extension"
+                id="gui.extension.xkithqrover.name"
+            />
+        ),
         extensionId: 'xkithqrover',
         collaborator: 'XBlockly',
         iconURL: xkithqroverImage,
@@ -246,7 +252,7 @@ export default [
         description: (
             <FormattedMessage
                 defaultMessage="Connect your projects with the world."
-                description="Description for the 'hqrover' extension"
+                description="Description for the xkit\'s 'hqrover' extension"
                 id="gui.extension.xkithqrover.description"
             />
         ),
@@ -260,7 +266,7 @@ export default [
         connectingMessage: (
             <FormattedMessage
                 defaultMessage="Connecting"
-                description="Message to help people connect to their hqrover."
+                description="Message to help people connect to their xkit\'s 'hqrover'."
                 id="gui.extension.xkithqrover.connectingMessage"
             />
         ),
